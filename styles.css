@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.main-header h1 {
+  font-size: 100px;
+  font-family: Lobster;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: ghostwhite;
+  background-image: url(images/logo.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.main-header nav {
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  text-align: left;
+  color: ghostwhite;
+  padding-bottom: 30px;
+}
+
+.main-nav ul {
+  border-radius: 25px;
+  width: 400px;
+  font-size: 50px;
+  padding: 10px;
+  text-align: left;
+}
+
+.race hvr-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-forward:hover,
+.hvr-forward:focus,
+.hvr-forward:active {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+.main-nav ul.practice:hover {
+  background-color: rgb(150, 236, 129);
+  font-size: 150%;
+}
+
+.main-nav ul.test:hover {
+  background-color: rgb(238, 123, 123);
+  font-size: 150%;
+}
+
+.main-nav ul.settings:hover {
+  background-color: rgb(226, 99, 99);
+  font-size: 150%;
+}
