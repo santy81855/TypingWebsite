@@ -49,3 +49,27 @@
   -webkit-transform: translateX(8px);
   transform: translateX(8px);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.container {
+  background-color: gray;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.timer {
+  position: relative;
+  top: 2rem;
+  font-size: 3rem;
+}
+
+div .quote-display {
+  margin-bottom: 1rem;
+}
